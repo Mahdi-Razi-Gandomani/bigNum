@@ -43,24 +43,3 @@ a * c = 538277871090
 a += b -> a =  285293475283945729834502394823477578268
 b *= 2 -> b = 570586950567891459669004789646904691846
 ```
-
-
-## Implementation Details
-
-### Class: `bigNum`
-- **Attributes:**
-  - `std::string s` — stores the absolute value as a string.
-  - `bool sign` — represents the sign (true = positive, false = negative).
-
-### Key Methods
-| Method | Description |
-|---------|--------------|
-| `operator+`, `operator-`, `operator*` | Arithmetic between big numbers |
-| `operator>(<,>=,<=,==,!=)` | Comparison operators |
-| `operator[](int)` | Access a specific digit (1-based index) |
-| `printDelimiter()` | Print number with comma separators |
-| `comp()` | Internal comparison helper function |
-
-### Stream Operators
-- `operator<<` — Output a `bigNum`.
-- `operator>>` — Input a `bigNum` from user.
