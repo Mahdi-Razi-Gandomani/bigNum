@@ -1,7 +1,6 @@
 ## BigNum Class for Arbitrary-Precision Arithmetic
 
 - This project implements a `bigNum` class in C++ to handle arbitrary-precision arithmetic, enabling operations on integers much larger than those natively supported by standard data types like `int`, `long`, or even `long long`. The class supports operations like addition, subtraction, multiplication, and comparisons between large numbers, as well as between a `bigNum` and a `long` integer.
-- 
 ---
 
 ## Features
